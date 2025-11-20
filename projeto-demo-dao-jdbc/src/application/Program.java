@@ -43,5 +43,9 @@ public class Program {
         System.out.println(seller);
 
 
+        System.out.println("\n=== TEST 6: seller delete ===");
+        sellerDao.deleteById(8);
+        System.out.println("Deletado com sucesso!");
+
     }
 }
